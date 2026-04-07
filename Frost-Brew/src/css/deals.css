@@ -1,0 +1,84 @@
+/*---------------------------------------------dealcard--------------------------------------------------------*/
+
+/* Card Container */
+.card {
+  overflow: hidden;
+  border-radius: 12px;
+  background-color: #ffffff;
+  color: #64748b; /* slate-500 */
+  box-shadow: 0 4px 8px rgba(200, 200, 200, 0.5);
+  max-width: 350px;
+  font-family: Arial, sans-serif;
+}
+
+/* Image */
+.card-image img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+/* Body */
+.card-body {
+  padding: 16px;
+}
+
+.card-header {
+  margin-bottom: 12px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #334155; /* slate-700 */
+}
+
+.card-price {
+  color: #94a3b8; /* slate-400 */
+  margin-top: 4px;
+}
+
+.card-description {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+/* Button */
+.card-action {
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px;
+  padding-top: 0;
+}
+
+.card-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 0.5rem 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #10b981; /* emerald-500 */
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.card-btn:hover {
+  background-color: #059669; /* emerald-600 */
+}
+
+.card-btn:focus {
+  background-color: #047857; /* emerald-700 */
+  outline: none;
+}
+
+.card-btn:disabled {
+  background-color: #a7f3d0; /* lighter emerald */
+  border: 1px solid #a7f3d0;
+  cursor: not-allowed;
+  box-shadow: none;
+}
