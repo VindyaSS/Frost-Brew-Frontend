@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300;400;500;600;700&display=swap');
+
+
+/*------------------------------------------------LoginPage------------------------------------------------------------------------------*/
+
+
+.FLEmpty {
+        background-color: #FDF8F5;
+        border-radius: 60px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 800px;
+        margin: 32px auto;
+        box-sizing: border-box;
+        padding:50px;
+}
+
+.Login-container {
+        background-color: #FDF8F5;
+        padding-top: 60px;
+        padding-bottom: 100px;
+
+}
+
+
+
+
+
+
+
+.FInput {
+        border-radius: 15px;
+        background-color: rgb(216, 212, 212);
+        padding-left: 40px;
+        padding-right: 30px;
+        margin-top: 5px;
+        margin-bottom: 30px;
+        font-family: 'Segoe UI';
+        font-size: small;
+        border: none;
+        padding-bottom: 5px;
+        padding-top: 5px;
+
+
+}
+
+.Flabel {
+        margin-bottom: 5px;
+        font-size: 14px;
+        
+}
+
+.FFields {
+        display: flex;
+        flex-direction: column;
+}
+
+.btnL {                                         /*red button*/
+
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        gap: 8px;
+        padding-left: 50px;
+        padding-right: 50px;
+        transition: all 0.3s;
+        cursor: pointer;
+        border-radius: 9999px;
+        outline: none;
+        background-color: #361F1A;
+        color: white;
+        margin-bottom: 10px;
+        border: none;
+        margin-left: 30px;
+
+}
+
+.form-columns {
+        display: flex;
+       
+}
+
+.Form-left{
+
+        padding-left:20px ;
+        
+}
+
+.Topic{
+        color: #361F1A;
+        font-family:'Epilogue', sans-serif;
+        font-size: 50px;
+        text-align: left;
+}
+
+.Text{
+
+        color:#504442;
+        text-align:left
+
+}
+
+.Form-right{
+
+        padding-left: 60px;
+        padding-right: 60px;
+        justify-content: center;
+
+}
+
+.WhiteCard{
+
+   width: 100%;          /* Let it fill the right column */
+  max-width: 200px;   
+  
+  background-color:white;
+  border-radius:10px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+  margin-top:100px;
+  overflow:hidden;
+  font-family:Arial, Helvetica, sans-serif;
+  padding: 30px;
+  
+}
+
+.Topic2{
+        color: #361F1A;
+        font-family:'Epilogue', sans-serif;
+        font-size: 20px;
+        text-align: center;
+       
+
+
+}
+
+.Text2{
+
+            text-align: center;
+
+
+
+}
+
+.Text3{
+
+             text-align: center;
+   
+
+}
+
+
+
+
+
