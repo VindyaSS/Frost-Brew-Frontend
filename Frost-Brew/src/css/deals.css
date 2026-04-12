@@ -13,9 +13,12 @@
 
 /* Image */
 .card-image img {
-  width: 100%;
-  aspect-ratio: 16/9;
-  object-fit: cover;
+  width: 220px;
+ height: 220px;
+   justify-content: center; /* center vertically (if height exists) */
+  align-items: center;   /* center horizontally */
+    border-radius: 10px;
+
 }
 
 /* Body */
@@ -60,7 +63,7 @@
   font-size: 0.875rem;
   font-weight: 500;
   color: #ffffff;
-  background-color: #10b981; /* emerald-500 */
+  background-color: #361F1A; /* emerald-500 */
   border: none;
   border-radius: 6px;
   cursor: pointer;
@@ -68,11 +71,11 @@
 }
 
 .card-btn:hover {
-  background-color: #059669; /* emerald-600 */
+  background-color: #964261; /* emerald-600 */
 }
 
 .card-btn:focus {
-  background-color: #047857; /* emerald-700 */
+  background-color: #964261; /* emerald-700 */
   outline: none;
 }
 
@@ -81,4 +84,31 @@
   border: 1px solid #a7f3d0;
   cursor: not-allowed;
   box-shadow: none;
+}
+
+
+/*------------------------------------------------------deal Page-------------------------------------------------------------------*/
+
+.dealsS{
+
+    padding: 30px;
+    background-color: #FDF8F5;
+
+
+}
+
+.image-row {
+  padding-left:85px;
+  padding-right:40px;
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 15px;
+}
+
+.image-group {
+  flex: 1 1  30%;
+  display: flex;
+  flex-direction: column;
 }
