@@ -1,6 +1,8 @@
 import React from "react";
 
-export default function DealCard({ image, title, price, description }) {
+
+
+export default function SpecialCard({ image, title, price, description }) {
   return (
     <div className="card">
       {/* Image */}
