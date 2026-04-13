@@ -1,5 +1,5 @@
 import React from "react";
-
+import QuantityButton from "./QuantityButton";
 
 
 export default function SpecialCard({ image, title, price, description }) {
@@ -17,8 +17,9 @@ export default function SpecialCard({ image, title, price, description }) {
           <p className="card-price">{price}</p>
         </header>
         <p className="card-description">{description}</p>
-      </div>
+        <QuantityButton/>
 
+      </div>
       {/* Button */}
       <div className="card-action">
         <button className="card-btn">
