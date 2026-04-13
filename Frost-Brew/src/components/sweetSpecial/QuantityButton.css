@@ -1,0 +1,27 @@
+.stepper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn {
+  background-color: #4E342E; /* chocolate brown */
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #3E2723; /* darker chocolate */
+}
+
+.qty {
+  font-size: 18px;
+  font-weight: bold;
+  min-width: 20px;
+  text-align: center;
+}
