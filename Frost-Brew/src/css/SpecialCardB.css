@@ -1,19 +1,16 @@
-/*---------------------------------------------dealcard--------------------------------------------------------*/
-
-/* Card Container */
-.card {
+.ScardS {
   overflow: hidden;
   border-radius: 12px;
   background-color: #ffffff;
   color: #64748b; /* slate-500 */
   box-shadow: 0 4px 8px rgba(200, 200, 200, 0.5);
-  max-width: 350px;
+  max-width: 100%;
   font-family: Arial, sans-serif;
 }
 
 /* Image */
-.card-image img {
-  width: 220px;
+.ScardS-image1 img {
+width:100%;
  height: 220px;
    justify-content: center; /* center vertically (if height exists) */
   align-items: center;   /* center horizontally */
@@ -22,39 +19,39 @@
 }
 
 /* Body */
-.card-body {
+.Scard-body1 {
   padding: 16px;
 }
 
-.card-header {
+.Scard1-header1 {
   margin-bottom: 12px;
 }
 
-.card-title {
+.Scard1-title1 {
   font-size: 1.25rem;
   font-weight: 500;
   color: #334155; /* slate-700 */
 }
 
-.card-price {
+.Scard1-price1 {
   color: #94a3b8; /* slate-400 */
   margin-top: 4px;
 }
 
-.card-description {
+.Scard1-description1 {
   font-size: 0.9rem;
   line-height: 1.4;
 }
 
 /* Button */
-.card-action {
+.Scard1-action1 {
   display: flex;
   justify-content: flex-end;
   padding: 16px;
   padding-top: 0;
 }
 
-.card-btn {
+.Scard1-btn1 {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -70,45 +67,19 @@
   transition: background-color 0.3s;
 }
 
-.card-btn:hover {
+.Scard1-btn1:hover {
   background-color: #964261; /* emerald-600 */
 }
 
-.card-btn:focus {
+.Scard1-btn1:focus {
   background-color: #964261; /* emerald-700 */
   outline: none;
 }
 
-.card-btn:disabled {
+.Scard1-btn1:disabled {
   background-color: #a7f3d0; /* lighter emerald */
   border: 1px solid #a7f3d0;
   cursor: not-allowed;
   box-shadow: none;
 }
 
-
-/*------------------------------------------------------deal Page-------------------------------------------------------------------*/
-
-.dealsS{
-
-    padding: 30px;
-    background-color: #FDF8F5;
-
-
-}
-
-.image-row {
-  padding-left:85px;
-  padding-right:40px;
-  padding-top: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  margin-bottom: 15px;
-}
-
-.image-group {
-  flex: 1 1  30%;
-  display: flex;
-  flex-direction: column;
-}

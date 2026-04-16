@@ -1,11 +1,11 @@
 import React from "react";
-
+import QuantityButton from "../sweetSpecial/QuantityButton";
 export default function DealCard({ image, title, price, description }) {
   return (
     <div className="card">
       {/* Image */}
       <figure className="card-image">
-        <img src={image}  />
+        <img src={image} />
       </figure>
 
       {/* Body */}
@@ -15,6 +15,8 @@ export default function DealCard({ image, title, price, description }) {
           <p className="card-price">{price}</p>
         </header>
         <p className="card-description">{description}</p>
+        <QuantityButton />
+
       </div>
 
       {/* Button */}

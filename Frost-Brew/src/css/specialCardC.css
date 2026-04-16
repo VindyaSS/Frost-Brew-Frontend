@@ -1,60 +1,60 @@
-/*---------------------------------------------dealcard--------------------------------------------------------*/
-
-/* Card Container */
-.card {
+.ScardC {
   overflow: hidden;
   border-radius: 12px;
   background-color: #ffffff;
   color: #64748b; /* slate-500 */
   box-shadow: 0 4px 8px rgba(200, 200, 200, 0.5);
-  max-width: 350px;
+  max-width: 100%;
   font-family: Arial, sans-serif;
 }
 
 /* Image */
-.card-image img {
-  width: 220px;
- height: 220px;
+.ScardC-image2 img {
+width:100px;
+ height: 100px;
    justify-content: center; /* center vertically (if height exists) */
   align-items: center;   /* center horizontally */
-    border-radius: 10px;
+    border-radius: 3px;
 
 }
 
 /* Body */
-.card-body {
-  padding: 16px;
+.ScardC-body {
+          display: flex;
+
 }
 
-.card-header {
+
+
+.ScardC-header {
   margin-bottom: 12px;
 }
 
-.card-title {
+.ScardC-title {
   font-size: 1.25rem;
   font-weight: 500;
   color: #334155; /* slate-700 */
 }
 
-.card-price {
+.ScardC-price {
   color: #94a3b8; /* slate-400 */
   margin-top: 4px;
 }
 
-.card-description {
+.ScardC-description {
   font-size: 0.9rem;
   line-height: 1.4;
 }
 
 /* Button */
-.card-action {
+.ScardC-action {
   display: flex;
   justify-content: flex-end;
   padding: 16px;
   padding-top: 0;
 }
 
-.card-btn {
+.ScardC-btn {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -70,45 +70,33 @@
   transition: background-color 0.3s;
 }
 
-.card-btn:hover {
+.ScardC-btn:hover {
   background-color: #964261; /* emerald-600 */
 }
 
-.card-btn:focus {
+.ScardC-btn:focus {
   background-color: #964261; /* emerald-700 */
   outline: none;
 }
 
-.card-btn:disabled {
+.ScardC-btn:disabled {
   background-color: #a7f3d0; /* lighter emerald */
   border: 1px solid #a7f3d0;
   cursor: not-allowed;
   box-shadow: none;
 }
 
+.body-left{
 
-/*------------------------------------------------------deal Page-------------------------------------------------------------------*/
+        padding-left:20px ;
+        
+}
 
-.dealsS{
+.body-right{
 
-    padding: 30px;
-    background-color: #FDF8F5;
-
+        padding-left: 60px;
+        padding-right: 60px;
+        justify-content: center;
 
 }
 
-.image-row {
-  padding-left:85px;
-  padding-right:40px;
-  padding-top: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  margin-bottom: 15px;
-}
-
-.image-group {
-  flex: 1 1  30%;
-  display: flex;
-  flex-direction: column;
-}

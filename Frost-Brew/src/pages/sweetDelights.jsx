@@ -10,7 +10,6 @@ import image3 from "../assets/image3.png";
 
 import "../css/sweetDelights.css";
 import DealCard from "../components/dealComponents/DealCard";
-import SpecialCard from "../components/sweetSpecial/SpecialCard";
 
 export default function sweetDelights() {
 
@@ -23,7 +22,7 @@ export default function sweetDelights() {
                 <p className="Text">Handcrafted daily with organic ingredients and a dash of seasonal magic.<br />Discover our colourful collection of cupcakes </p>
                 <div className="image-row">
                     <div className="image-group">
-                        <SpecialCard
+                        <DealCard
                             image={image8}
                             title="Velvet Espresso Blush"
                             price="Rs.250"
@@ -32,7 +31,7 @@ export default function sweetDelights() {
                     </div>
 
                     <div className="image-group">
-                        <SpecialCard
+                        <DealCard
                             image={image9}
                             title="Lavender Honey"
                             price="Rs.270"
@@ -41,7 +40,7 @@ export default function sweetDelights() {
                     </div>
 
                     <div className="image-group">
-                        <SpecialCard
+                        <DealCard
                             image={image10}
                             title="Morning Mist"
                             price="Rs.210"
@@ -52,7 +51,7 @@ export default function sweetDelights() {
 
                 <div className="image-row">
                     <div className="image-group">
-                        <SpecialCard
+                        <DealCard
                             image={image11}
                             title="Midnight Berry"
                             price="Rs.150"
@@ -61,7 +60,7 @@ export default function sweetDelights() {
                     </div>
 
                     <div className="image-group">
-                        <SpecialCard
+                        <DealCard
                             image={image12}
                             title="Citrus Bloom"
                             price="Rs.200"
@@ -70,7 +69,7 @@ export default function sweetDelights() {
                     </div>
 
                     <div className="image-group">
-                        <SpecialCard
+                        <DealCard
                             image={image3}
                             title="Ruby Velvet Muffin"
                             price="Rs.300"

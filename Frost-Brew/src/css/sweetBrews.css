@@ -1,0 +1,42 @@
+.image-group1 {
+
+    display: grid;
+    grid-template-columns: 600px 400px;
+    gap: 30px;
+
+    width: 100%;
+    max-width: 1000px;
+    margin: 32px auto;
+    box-sizing: border-box;
+    padding: 30px;
+
+}
+
+.image-group2 {
+    display: grid;
+    grid-template-rows: 250px 250px;
+    gap: 10px;
+
+
+
+}
+
+.image-row1 {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 300px 300px 300px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 32px auto;
+    box-sizing: border-box;
+    padding: 30px;
+
+}
+
+.dealsB{
+
+    padding: 30px;
+    background-color: #FDF8F5;
+
+
+}
