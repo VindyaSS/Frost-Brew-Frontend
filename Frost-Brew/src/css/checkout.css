@@ -1,0 +1,21 @@
+.grid{
+
+display: grid;
+    grid-template-columns: 600px 400px;
+    gap: 30px;
+
+    width: 100%;
+    max-width: 1000px;
+    margin: 32px auto;
+    box-sizing: border-box;
+    padding: 30px;
+
+
+}
+
+.cardimage img{
+
+    width: 800px;
+
+
+}

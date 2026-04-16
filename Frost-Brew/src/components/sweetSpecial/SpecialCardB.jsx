@@ -1,12 +1,11 @@
 import React from "react";
 import QuantityButton from "./QuantityButton";
 
-
-export default function SpecialCard({ image, title, price, description }) {
+export default function SpecialCardB({ image, title, price, description }) {
   return (
-    <div className="Scard">
+    <div className="ScardS">
       {/* Image */}
-      <figure className="Scard-image">
+      <figure className="ScardS-image1">
         <img src={image}  />
       </figure>
 
