@@ -5,7 +5,8 @@ import SweetDelights from "./pages/sweetDelights";
 import QuantityButton from "./components/sweetSpecial/QuantityButton";
 import SweetBrews from "./pages/sweetBrews";
 import Checkout from "./pages/checkout";
-
+import Tracking from "./pages/tracking";
+import TrackingCard from "./components/TrackingComponent/TrackingCard"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
           <Route path="/quantityButton" element={<QuantityButton />} />
           <Route path="/sweetBrews" element={<SweetBrews />} />
           <Route path="/checkout" element={<Checkout />} />
+          <Route path="/tracking" element={<Tracking />} />
+          <Route path="/trackingCard" element={<TrackingCard/>} />
 
         </Routes>
       </div>

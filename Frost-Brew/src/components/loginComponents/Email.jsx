@@ -13,7 +13,7 @@ function Email(props) {
                     value={props.value}
                     name={props.name}
                     onChange={props.onChange}
-                    placeholder={props.placeholder || "example@domain.com"}
+                    placeholder={props.placeholder || ""}
                     className="FInput"
                     
                 />
