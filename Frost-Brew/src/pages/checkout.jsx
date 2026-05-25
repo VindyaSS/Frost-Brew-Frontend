@@ -4,6 +4,8 @@ import Navbar from "../components/NavBar/navBar";
 import DetailCard from "../components/checkout/DetailCard";
 import "../css/checkout.css"
 import OrderSummaryCard from "../components/checkout/OrderSummaryCard";
+import PaymentMethodCard from "../components/checkout/PaymentMethodCard";
+
 import ImgC from "../assets/imagC1.png"
 export default function Chekout() {
 
@@ -21,9 +23,9 @@ export default function Chekout() {
                     <DetailCard/>
                     <OrderSummaryCard/>
                     <figure className="cardimage">
-
                     <img src={ImgC} alt="Photo" />
                     </figure>
+                    <PaymentMethodCard/>
 
                 </div>
             </div>
